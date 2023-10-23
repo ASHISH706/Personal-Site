@@ -1,0 +1,189 @@
+.top-container {
+    background: #B9B4C7;
+    height: 580px;
+    position: relative;
+    padding-top: 216px;
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    text-align: center;
+}
+
+.top-name {
+    text-align: center;
+
+}
+
+.title-name {
+    margin: 0px;
+    font-family: myfont;
+    font-size: 150px;
+    color: #352F44;
+}
+
+.title-header {
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #5C5470;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-bottom: 150px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.cloud {
+    left: 75%;
+    top: 80px;
+    position: absolute;
+    height: 60px;
+}
+
+.cloud1 {
+    left: 68%;
+    top: 39%;
+    position: absolute;
+}
+
+.cloud2 {
+    left: 10%;
+    top: 60%;
+    position: absolute;
+    height: 70px;
+}
+
+
+.cloud4 {
+    left: 25%;
+    top: 80px;
+    position: absolute;
+    height: 60px;
+}
+
+.mountain {
+    position: relative;
+    height: 190px;
+    margin-top: 22px;
+}
+
+.cloud3 {
+    left: 65%;
+    top: 80%;
+    position: absolute;
+    height: 70px;
+}
+
+.Middle-container {
+    margin-top: 70px;
+}
+
+.profile>img {
+    height: 300px;
+    border-radius: 19%;
+    border: 2px solid #5C5470;
+}
+
+.profile>h2{
+    font-family: myfont1;
+    color: #5C5470;
+    margin: 1.5em;
+    font-size: 30px;
+}
+
+.Middle-container>p{
+    font-family: myfont1;
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    width: 39%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.Middle-container>hr{
+    border-top: 6px dotted #B9B4C7;
+    width: 5%;
+    margin-bottom: 100px;
+}
+
+.skill-sec>h2{
+    font-family: myfont1;
+    color: #5C5470;
+    margin-bottom: 100px;
+    font-size: 30px;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 700px;
+    margin: auto;
+    text-align: left;
+    column-gap: 40px;
+    row-gap: 50px;
+}
+
+.cat-text>img{
+    border-radius: 50%;
+}
+
+.text>h2{
+    font-family: myfont1;
+    color: #5C5470;
+}
+
+.text>p{
+    font-family: myfont1;
+    font-size: 20px;
+}
+
+.jim-typing>img{
+    border-radius: 50%;
+}
+
+.skill-sec>hr{
+    border-top: 6px dotted #B9B4C7;
+    width: 5%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.contact>div>h2{
+    margin-bottom: 45px;
+}
+
+.btn{
+    background-color: #5C5470;
+    height: 50px;
+    width: 150px;
+    border: 2px solid #352F44;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 100px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.footer>p{
+    font-family: myfont1;
+    flex-basis: 130px;
+    font-size: large;
+    font-weight: bold;
+    color: #352F44;
+}
+
+footer{
+    font-family: myfont1;
+    color: #352F44;
+    margin-top: 40px;
+    font-size: large;
+}
